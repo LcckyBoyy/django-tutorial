@@ -6,7 +6,7 @@ A simple Django polls application following the official Django tutorial.
 
 1. Create a virtual environment:
 ```bash
-python -m venv myvenv
+py -m venv myvenv
 ```
 
 2. Activate the virtual environment:
@@ -21,17 +21,22 @@ pip install -r requirements.txt
 
 4. Run migrations:
 ```bash
-python manage.py migrate
+py manage.py migrate
 ```
 
 5. Create a superuser (optional):
 ```bash
-python manage.py createsuperuser
+py manage.py createsuperuser
 ```
+Username : admin
+Email : (can be left blank)
+Password : (enter your password - characters won't be visible)
+Password (again) : # re-enter
+
 
 6. Run the development server:
 ```bash
-python manage.py runserver
+py manage.py runserver
 ```
 
 ## Dependencies
